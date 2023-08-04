@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+    --max-width-size: 1920px;
+}
+h2{
+    font-weight: 600;
+    text-align: center;
+}
+P{
+    font-size: 24px;
+    text-align: center; 
+    margin: 2% 4%;
+    line-height: 40px;
+
+}
+span{
+    font-weight: bold;
+}
