@@ -151,7 +151,7 @@ body{
     line-height: 30px;
     margin-bottom: 10%;
 }
-.descricao button{
+.linguagem button, .modelos button{
     margin:10%;
 }
 .descricao a, .modelos a{
@@ -260,11 +260,11 @@ body{
 
 @keyframes flutuar {
     from{ 
-        transform: matrix3d(0, 0, 0)
+        transform: matrix3d(0 0 0)
     filter: brightness(90%);
     }
     to{
-        transform: matrix3d(0, -20, -10);
+        transform: matrix3d(0 -20 -10);
     filter: brightness(180%);
     }
 }
