@@ -254,11 +254,11 @@ body{
 
 @keyframes flutuar {
     from{ 
-        transform: matrix3d(0 0 0)
-    filter: brightness(90%);
+        transform: matrix3d(0 0 0);
+        filter: brightness(90%);
     }
     to{
         transform: matrix3d(0 -20 -10);
-    filter: brightness(180%);
+        filter: brightness(180%);
     }
 }
