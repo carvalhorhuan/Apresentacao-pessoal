@@ -138,6 +138,10 @@ body{
 .container-conhecimento, .portifolio{
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
 
 }
 .linguagem, .modelos{
