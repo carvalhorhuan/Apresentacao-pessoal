@@ -191,8 +191,8 @@ button:hover, .modelos a:hover{
    zoom: 105%;
 }
 .modelos img{
-    width: 150px;
-    height: auto;
+    max-width: 120px;
+    height: 80px;
     margin-top: 80px;
 }
 
