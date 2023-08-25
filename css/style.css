@@ -159,7 +159,9 @@ body{
     margin: 5%;
     width: 90px;
     height: auto;  
-
+}
+.linguagem button{
+    margin-left: 19%;
 }
 .descricao, .modelos p{
     list-style-position: inside;
@@ -170,23 +172,24 @@ body{
     line-height: 30px;
     margin-bottom: 10%;
 }
-.linguagem button, .modelos button{
-    margin:10%;
-}
-.descricao a, .modelos a{
-    background-color: rgb(67, 75, 199);
+button, .modelos a{
     color: #ccc;
     Padding: 16px;
     border-radius: 1rem;
     text-decoration: none; 
     align-items: center;
     transform: 0.4s ease-in-out;
-}
-.descricao a:hover, .modelos a:hover{
+    border-style: inherit;
+    cursor: pointer;
     background-color: rgba(1, 73, 180, 0.8);
     box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 12px;
 }
-
+button:hover, .modelos a:hover{
+   background-color:rgba(2, 30, 71, 0.8); 
+   zoom: 105%;
+}
 .modelos img{
     width: 150px;
     height: auto;

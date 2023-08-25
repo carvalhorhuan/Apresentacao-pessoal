@@ -16,7 +16,7 @@ span.addEventListener('click',function(){
         span.innerHTML = 'Ver Mais!'
         conteudo.classList.remove('mostrar');
     }else{
-        span.innerHTML = 'Ocultar!'
+        span.innerHTML = 'Ver menos!'
         conteudo.classList.add('mostrar');
     }
 });
