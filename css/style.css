@@ -160,10 +160,10 @@ body{
     width: 90px;
     height: auto;  
 }
-.linguagem button{
+.linguagem a{
     margin-left: 19%;
 }
-.descricao, .modelos p{
+.descricao p, .modelos p{
     list-style-position: inside;
     color: #fff;
 }
@@ -172,7 +172,7 @@ body{
     line-height: 30px;
     margin-bottom: 10%;
 }
-button, .modelos a{
+.modelos a, .descricao a{
     color: #ccc;
     Padding: 16px;
     border-radius: 1rem;
@@ -186,7 +186,7 @@ button, .modelos a{
     font-weight: bold;
     font-size: 12px;
 }
-button:hover, .modelos a:hover{
+.linguagem a:hover, .modelos a:hover{
    background-color:rgba(2, 30, 71, 0.8); 
    zoom: 105%;
 }
@@ -195,9 +195,6 @@ button:hover, .modelos a:hover{
     height: 80px;
     margin-top: 80px;
 }
-
-/*whatsapp*/
-
 
 /*footer*/
 .footer{
