@@ -108,7 +108,7 @@
     .container-list ul li, .container-list ul li p{
         margin: 0 auto;
         font-size: 14px;
-}
+    }
     .apresentacao{
         width: 290px;
         height: 230px;
@@ -127,36 +127,36 @@
     h2{
         font-size: 28px;
     }
-.contato{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.instrucao{
-    width: 90%;
-    display: flex;
-    margin: 0px;
-}
-.instrucao ion-icon{
-    font-size: 60px;
-    margin-top: 30px;
-}
-.instrucao h2{
-    font-size: 24px;
-    padding-top: 0;
-}
-.instrucao h3{
-    font-size: 16px;
-}
-form{
-    margin-top: 5px;
-    width: 80%;
-}
-input, textarea{
-    width: 350px;
-}
-}
+    .contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .instrucao{
+        width: 90%;
+        display: flex;
+        margin: 0px;
+    }
+    .instrucao ion-icon{
+        font-size: 60px;
+        margin-top: 30px;
+    }
+    .instrucao h2{
+        font-size: 24px;
+        padding-top: 0;
+    }
+    .instrucao h3{
+        font-size: 16px;
+    }
+    form{
+        margin-top: 5px;
+        width: 80%;
+    }
+    input, textarea{
+        width: 350px;
+    }
+    }
 @media (max-width: 1450px){
     .contato{
         display: flex;
