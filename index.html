@@ -301,24 +301,44 @@
         </a>
     </div>
     
-    <!--Contato via E-mail-->
-    <!--    
-        <div id="contato">
-        <input type="email">
-        <input type="number">
-        <textarea type="textarea"></textarea>
-        <button type="submit"></button>
-    </div>
-    -->
+    <!--Contato via E-mail--> 
+        <div class="contato">
+
+            <div class="instrucao">
+                <div class="card-icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <h2>Entre Em contato</h2>
+                <h3>Me mande um email, vamos conversar!<br> Ou clique sobre o Whats App na tela!</h3>
+            </div>
+            
+            <form id="form" class="form">
+                <div class="input-group">
+                    <input type="text" id="nome" placeholder="Seu Nome*" required >
+                    <small class="erro">Campo Obrigatório</small>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Email*" required>
+                    <small class="erro">campo obrigatório</small>
+                </div>              
+                <div class="input-group">
+                    <input type="tel" id="phone" placeholder="Telefone*" required>
+                    <small class="erro">campo obrigatório</small>
+                </div>
+                <div class="input-group">
+                    <textarea id="observacoes" name="observacoes" rows="5" cols="50" style="min-width: 350px; height: 200px;" placeholder="Mensagem*"></textarea>
+                </div>
+                
+                <button type="submit" id="submit">Enviar</button>
+                <p>*campos obrigatórios</p>
+            </form>
+        </div>
 
 
     <!--Footer do Site-->
     <footer>
         <div class="footer" id="footer">
-            <p>Direitos reservados, São José - SC - Brasil</p>
-            <div class="logo-footer">
-                <img src="images/logo2.png" alt="Logo 2">
-            </div>
+            
             <div class="menu-footer">
                 <nav>
                     <ul>
@@ -334,6 +354,7 @@
                     </ul>
                 </nav>
             </div>
+
             <div class="social">
                 <a href="https://www.instagram.com/rhu4n.c">
                     <ion-icon name="logo-instagram"></ion-icon>
@@ -345,6 +366,12 @@
                     <ion-icon name="logo-github"></ion-icon>
                 </a>
             </div>
+
+            <div class="logo-footer">
+                <img src="images/logo2.png" alt="Logo 2">
+                <p>Direitos reservados, São José - SC - Brasil</p>
+            </div>
+
         </div>
     </footer>
 

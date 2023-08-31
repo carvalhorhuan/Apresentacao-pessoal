@@ -186,7 +186,7 @@ body{
     font-weight: bold;
     font-size: 12px;
 }
-.linguagem a:hover, .modelos a:hover{
+.linguagem a:hover, .modelos a:hover, button:hover{
    background-color:rgba(2, 30, 71, 0.8); 
    zoom: 105%;
 }
@@ -195,7 +195,71 @@ body{
     height: 80px;
     margin-top: 80px;
 }
+/*Contato via E-mail*/ 
+.contato{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instrucao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 150px;
+    text-align: justify;
+}
+.instrucao ion-icon{
+    font-size: 120px;
+    color: rgb(255, 255, 255) ;
+}
+.instrucao h3{
+    font-size: 24px;
+    color: rgb(255, 255, 255) ;
+}
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 30px;
+}
+input, textarea{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 40px;
+    border: ridge rgba(1, 73, 180, 0.8);
+    border-radius: 0.8rem;
+    padding: 5px;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 24px;
+}
+.erro{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    color: #ccc;
+    Padding: 16px;
+    border-radius: 1rem; 
+    transform: 0.4s ease-in-out;
+    border-style: inherit;
+    cursor: pointer;
+    background-color: rgba(1, 73, 180, 0.8);
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+    
+}
 /*footer*/
 .footer{
     text-align: center;
@@ -207,16 +271,21 @@ body{
     width: 200px;
     margin: right;
 }
+.logo-footer p{
+    margin: 0;
+}
 .menu-footer{
     width: 100%;
     text-align: center;
 }
 .menu-footer ul{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+    width: 25%; 
+    margin-left: 37.5%;
+    margin-bottom: 15px;
     }
 
 .menu-footer a{
@@ -226,19 +295,21 @@ body{
     transform: 0.3s ease-in-out;
 }
 .menu-footer a:hover{
-    color: rgba(5, 21, 46, 0.9);
+    color: rgba(1, 73, 148, 0.8);
 
 }
 .social a ion-icon{
     color: white;
     font-size: 30px;
     transition: 0.3s ease-in-out;
-    border-radius: 50%;
+    border-radius: 1rem;
+    margin-bottom: 15px;
 }
 .social a ion-icon:hover{
-    background-color: rgba(0, 39, 99, 0.9);
+    background-color: rgba(1, 73, 148, 0.8);
     border-radius: 50%;
     padding: 5px;
+    justify-content: space-around;
 }
 
 /*botão whatssapp*/
