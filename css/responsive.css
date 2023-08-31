@@ -127,7 +127,106 @@
     h2{
         font-size: 28px;
     }
-
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+.instrucao{
+    width: 90%;
+    display: flex;
+    margin: 0px;
+}
+.instrucao ion-icon{
+    font-size: 60px;
+    margin-top: 30px;
+}
+.instrucao h2{
+    font-size: 24px;
+    padding-top: 0;
+}
+.instrucao h3{
+    font-size: 16px;
+}
+form{
+    margin-top: 5px;
+    width: 80%;
+}
+input, textarea{
+    width: 350px;
+}
+}
+@media (max-width: 1450px){
+    .contato{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .instrucao{
+        width: 90%;
+        display: flex;
+        margin: 0px;
+    }
+    .instrucao ion-icon{
+        font-size: 60px;
+        margin-top: 30px;
+    }
+    .instrucao h2{
+        font-size: 24px;
+        padding-top: 0;
+    }
+    .instrucao h3{
+        font-size: 16px;
+    }
+    form{
+        margin-top: 5px;
+        width: 80%;
+    }
+    input, textarea{
+        width: 350px;
+    }
+}
+/*Contato via E-mail 
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 30px;
+}
+input, textarea{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 40px;
+    border: ridge rgba(1, 73, 180, 0.8);
+    border-radius: 0.8rem;
+    padding: 5px;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 24px;
+}
+.erro{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+button{
+    color: #ccc;
+    Padding: 16px;
+    border-radius: 1rem; 
+    transform: 0.4s ease-in-out;
+    border-style: inherit;
+    cursor: pointer;
+    background-color: rgba(1, 73, 180, 0.8);
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
+*/ 
 
