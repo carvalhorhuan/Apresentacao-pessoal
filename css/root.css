@@ -1,0 +1,16 @@
+:root {
+    --switch-background: rgb(000, 46, 196);
+    --background-change: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 46, 196, 0.795));
+    --button-position-theme: right;
+    --about-font-color:#fff;
+    --about-span-pessoal: rgb(255, 174, 0);
+
+}
+
+.light {
+    --switch-background: rgba(255, 255, 25, 0.9);
+    --background-change: linear-gradient(360deg, rgb(000, 46, 196), rgba(255, 255, 255, 0.795));
+    --button-position-theme: left;
+    --about-font-color: black;
+    --about-span-pessoal: blue;
+}

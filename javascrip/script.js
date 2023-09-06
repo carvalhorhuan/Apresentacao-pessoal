@@ -1,4 +1,6 @@
-function menushow(){
+
+
+function menushow(){/* ver mais e ocultar a apresentação pessoal*/
     let menumobile = document.queryselector('menu-mobile');
     if (menumobile.classlist.contains('open')){
         menumobile.classlist.remove('open');
@@ -20,3 +22,18 @@ span.addEventListener('click',function(){
         conteudo.classList.add('mostrar');
     }
 });
+
+/*alterar tema*/
+var switchButton = document.getElementById('switch');
+        switchButton.addEventListener('click', toggleClass);
+        function toggleClass() {
+            var element = document.body;
+
+            if (element.classList.contains('light')) {
+                element.classList.remove('light');
+                element.classList.add('dark');
+            } else {
+                element.classList.remove('dark');
+                element.classList.add('light');
+            }
+        }

@@ -8,14 +8,14 @@ body{
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    background-image: linear-gradient(360deg, rgb(0, 0, 0), rgba(0, 46, 196, 0.795));
+    background-image: var(--background-change)
 }
 /*header*/
 
 .header{
     grid-area: header;
     max-height: 90px;
-
+    background-color:   rgba(0, 102, 255, 0.8);
 }
 .header .header-container{
     display: flex;
@@ -27,8 +27,40 @@ body{
 .header .header-container img{
     width: 12rem;   
 }
+/*botão troca de tema*/
+#switch{
+    display: flex;
+    align-items: center;
+    justify-content: var(--button-position-theme);
+    position: relative;
+    width: 90px;
+    margin-right: 30px;
+
+}
+#switch button.trocatema {
+    width: 32px;
+    height: 32px;
+    background: var(--switch-background);
+    border-radius: 50%;
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin: 0;
+
+}
+#switch span{
+    display: block;
+    border-radius: 99px;
+    width: 90px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px rgba(255, 255, 25, 0.6) solid;
+    --webkit-backdrop-filter: blur(4px);
+    transform: 5s;
+}
+
 /*menu que faz parte do header*/
-/*menu deskitop*/
+/*menu descktop*/
 .header nav ul{
     display: flex;
 }
@@ -65,7 +97,7 @@ body{
     Padding:10px;
     width: 580px;
     height: 400px;
-    background-color: rgba(1, 73, 180, 0.8);
+    background-color:  rgba(0, 102, 255, 0.8);;
     border-radius: 1rem;
     justify-items: center;
     box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.5);
@@ -108,7 +140,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 5%;
-    color: #fff;
+    color: var(--about-font-color);
     
  }
  .about .texto-pessoal p{
@@ -124,7 +156,7 @@ body{
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    color: rgb(255, 174, 0);
+    color: var(--about-span-pessoal);
     font-size: 20px;
     font-weight: bold;
  }
@@ -147,7 +179,7 @@ body{
 .linguagem, .modelos{
     display: flex;
     flex-direction: column;
-    background-color: rgba(95, 145, 221, 0.8);
+    background-color: rgba(0, 102, 255, 0.8);
     border-radius: 1rem;
     align-items: center;
     width: 250px;
@@ -216,6 +248,9 @@ body{
 .instrucao ion-icon{
     font-size: 120px;
     color: rgb(255, 255, 255) ;
+}
+.instrucao h2{
+    color: #fff;
 }
 .instrucao h3{
     font-size: 24px;
