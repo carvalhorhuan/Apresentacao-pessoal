@@ -1,6 +1,6 @@
 
 
-function menushow(){/* ver mais e ocultar a apresentação pessoal*/
+function menushow(){/* mostrar menu mobile */
     let menumobile = document.queryselector('menu-mobile');
     if (menumobile.classlist.contains('open')){
         menumobile.classlist.remove('open');
@@ -11,7 +11,7 @@ function menushow(){/* ver mais e ocultar a apresentação pessoal*/
 
 var span = document.querySelector('.texto-pessoal span');
 
-span.addEventListener('click',function(){
+span.addEventListener('click',function(){ /* mostrar mais e menor apresentação */
     var conteudo = document.querySelector('.texto-pessoal p');
 
     if(conteudo.classList.contains('mostrar')){
